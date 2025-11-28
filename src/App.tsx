@@ -9,7 +9,7 @@ import { BookingWizard } from './components/BookingWizard';
 import { AIConsultant } from './components/AIConsultant';
 import { MyBookings } from './components/MyBookings';
 import { Button } from './components/Button';
-import { Scissors, Menu, X, LogOut, Instagram } from 'lucide-react';
+import { Scissors, Menu, X, LogOut} from 'lucide-react';
 
 const App: React.FC = () => {
   const [user, setUser] = useState<User | null>(null);

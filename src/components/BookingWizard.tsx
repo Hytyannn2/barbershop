@@ -4,7 +4,7 @@ import { BARBERS, SERVICES, TIME_SLOTS } from '../constants';
 import type { BookingState } from '../types';
 import { bookingService, authService } from '../services/authService';
 import { Button } from './Button';
-import { Check, ChevronLeft, ChevronRight, Calendar, User as UserIcon, Scissors, Loader2, MapPin } from 'lucide-react';
+import { Check, Calendar, User as UserIcon, Scissors, Loader2, MapPin } from 'lucide-react';
 
 interface WizardProps {
   onComplete: () => void;
